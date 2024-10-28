@@ -16,7 +16,7 @@ content="width=device-width, initial-scale=1" />
 <style type="text/css">
 
 .frontpage {
-	background-color:#FF9;
+	background-color:#FF6;
 	width: 600px;}
 
 .xinghai {
@@ -37,8 +37,8 @@ content="width=device-width, initial-scale=1" />
 	text-justify:space-between;
 	width: 95px;
 	line-height: 20px;
-	background-color:#CCC;
 	border: none;
+	background-color:#CCC;
 	border-radius: 10px;
 	font-family:Verdana, Geneva, sans-serif;
 	font-size:16px;
@@ -53,31 +53,33 @@ content="width=device-width, initial-scale=1" />
 
 .whatsapp-dog {
 	display:inline-block;
-	margin-top:20px;
+	margin-top:10px;
 	margin-left:0px;
-	width:200px;
-	height:200px;
+	width:120px;
+	height:120px;
 	vertical-align:top;
 	align-content:center;
 	object-fit:contain;
-	border-top-left-radius:20px;
-	border-top-right-radius:20px;}
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;}
 	
 .whatsapp-me {
 	display:inline-block;
 	margin-top:0px;
 	padding:0px;
 	font-family: Arial;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight:bold;
-	color:#06F;
+	color:#03F;
 	align-content: center;
 	text-align:center;
 	vertical-align:central;
-	width: 200px;
-	height:90px;
+	width: 120px;
+	height:70px;
 	cursor:pointer;
-	padding-bottom: 50px;}
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	margin-bottom: 30px;}
 .whatsapp-me:hover{color:#0F0;}
 
 .product {
@@ -97,6 +99,27 @@ content="width=device-width, initial-scale=1" />
 	padding-left:0px;}
 .product:hover{color:#0CF}
 .product:hover{opacity:0.9}	
+
+.service {
+	font-weight: bold;
+	font-family: Arial;
+	font-size: 22px;
+	color:#03F;
+	text-align:center;
+	line-height:40px;
+	width: 520px;
+	border: none;
+	border-radius: 0px;
+	background-color:#CCC;
+	cursor: pointer;
+	margin-left:35px;
+	margin-bottom: 0px;
+	padding-left:0px;}
+.product:hover{color:#0FF;
+.product:hover{opacity:0.9}	
+
+
+
 
 </style>
 
@@ -153,27 +176,25 @@ content="width=device-width, initial-scale=1" />
 
 <div style="
 	display:inline-block;
-    width:200px;
-    height:300px;
-    margin-left:192px;
-    margin-bottom:60px;">
+    width:120px;
+    height:120px;
+    margin-left:240px;
+    padding-top:50px;
+    padding-bottom:140px;">
      
 	<img class="whatsapp-dog"
     style="
     display:inline-block;
-    vertical-align:bottom;
-    padding-top:30px;
-    border-top-left-radius:20px;
-    border-top-right-radius:20px;"
-    src="whatsapp-dog.jpg" width="449" height="500" longdesc="whatsapp-dog.jpg">
-    
+    vertical-align:top;"
+    src="whatsapp-dog.jpg" width="449" height="500" alt="whatsapp-dog" longdesc="whatsapp-dog.jpg">  
+
   	<a class="whatsapp-me"
     style="display:inline-block;
-    vertical-align:top;margin-bottom:0px;
-    margin-left:0px"
+    vertical-align:top;"
     href="https://api.whatsapp.com/send/?phone=85251816868&text&type=phone_number&app_absent=0" target="_blank">
     謝謝來訪<br>
 	whatsapp me<br>
+	get in touch<br>
 	5181 6868</a>
 </div>
     
@@ -223,7 +244,7 @@ content="width=device-width, initial-scale=1" />
 	margin-bottom: 50px;
     ">Technical Services 技術服務</div>
     
-   	<div class="product" 
+   	<div class="service" 
 	style="padding-top:10px;
 	border-top-left-radius:20px;
 	border-top-right-radius:20px;">
@@ -231,12 +252,12 @@ content="width=device-width, initial-scale=1" />
     href="Manuals-Catalog.html">* Manuals Catalog 用戶手冊技術手冊資料</a>
     </div>
     
-    <div class="product">
+    <div class="service">
     <a class="product"
     href="Digital-Signage-TechnicalHighlights.html">* Technical Highlights 技術製作亮點</a>
     </div>
            
-    <div class="product"
+    <div class="service"
     style="
     padding-bottom:10px;
     margin-bottom:30px;
